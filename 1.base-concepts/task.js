@@ -1,5 +1,5 @@
 function solveEquation(a, b, c) {
-  use strict
+  "use strict"
   let arr = [];
   
   let d = Math.pow(b, 2) - 4 * a * c; // код для задачи №1 писать здесь
@@ -17,7 +17,6 @@ function solveEquation(a, b, c) {
 
 function calculateTotalMortgage(percent, contribution, amount, date) {
  
-  use strict
   let currentDate = new Date();
 
 
